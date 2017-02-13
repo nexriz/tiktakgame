@@ -1,0 +1,28 @@
+
+.parent {
+	width: 800px;
+	height: 600px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	margin: auto;
+}
+
+.item {
+	background-color: tomato;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	box-shadow: 1px 1px 10px black;	
+	text-align: center;
+	font-weight: 300;
+	font-size: 180px;
+}
+
+.reset-btn {
+	width: 120px;
+	height: 70px;
+	font-size: 40px;
+	margin: auto;
+	margin-left: 410px;
+}
