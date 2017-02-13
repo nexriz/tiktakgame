@@ -50,7 +50,7 @@ class App extends Component {
       <div>
           <Tiktak {...this.state} click={::this.clickMove}/>
           <hr/>
-          <p>Winner: {winner}</p>
+          <h1 style={{paddingLeft: '25px', color: 'coral', textShadow: '1px 1px 1px black'}}>Winner: {winner && winner + '!'}</h1>
           {winner && <button className="reset-btn" onClick={::this.resetGame}>reset</button>}
       </div>
     );
